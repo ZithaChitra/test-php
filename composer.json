@@ -1,0 +1,11 @@
+{
+    "name": "blessingchitra/my-php-package",
+    "description": "A hello world composer private package.",
+    "autoload": {
+        "psr-4": {
+            "YourGithubUserName\\HelloWorldPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
